@@ -12,9 +12,41 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
     rel="stylesheet" />
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      font-size: 18pt; /* Increase base font size */
+      line-height: 1.75; /* Increase line height for better readability */
+      color: rgba(255, 255, 255, 0.85); /* Increase text color contrast */
+    }
+    h1, h2, h3, h4, h5, h6 {
+      color: #ffffff; /* Ensure headings are clearly readable */
+    }
+    a {
+      color: #ff6f61; /* Improve link color for better visibility */
+    }
+    a:hover {
+      color: #ff8a80;
+    }
+    strong, b {
+      color: #ff6f61;
+      font-weight: 500;
+    }
+    p, span, .address {
+      font-size: 1em; /* Ensure paragraphs and spans are readable */
+    }
+    .publicationImage img {
+      max-width: 150px; /* Ensure images in publication section are not too large */
+      margin-right: 20px; /* Add space between image and text */
+    }
+    .contentWrapper {
+      display: flex;
+      align-items: center;
+    }
+  </style>
 </head>
 
 <body class="is-preload">
@@ -78,7 +110,6 @@
       </nav>
       <div id="main">
 
-
         <!-- Second Section -->
         <section id="second" class="main special">
           <header class="major" data-aos="fade-up">
@@ -129,44 +160,44 @@
         </section>
 
         <section id="education" class="main">
-  <header class="major" data-aos="fade-up">
-    <center><h2>Education</h2></center>
-  </header>
-  <div class="publicationsWrapper">
-    <div class="publication-common" data-aos="fade-right">
-      <div class="publicationImage">
-        <img src="./images/university_of_guelph_image.jpg" alt="University of Guelph" />
-      </div>
-      <div class="contentWrapper">
-        <h4>University of Guelph</h4>
-        <p>
-          <b>PhD in Computer Science</b><br />
-          <b>Research Interests</b>: Large Language Models, Social Media Privacy, Ethical AI, Text Data Privacy <br />
-        </p>
-        <span class="description">May 2022 – May 2026 (Expected)</span>
-      </div>
-    </div>
-    <div class="publication-common" data-aos="fade-right">
-      <div class="publicationImage">
-        <img src="./images/american_university_of_sharjah_image.jpg" alt="American University of Sharjah" />
-      </div>
-      <div class="contentWrapper">
-        <h4>American University of Sharjah</h4>
-        <p>
-          <b>MSc in Computer Engineering</b><br />
-          <b>Thesis</b>: “Machine Learning-Based Approach for EV Charging Behavior” <br />
-        </p>
-        <span class="description">Jan 2019 – June 2021</span>
-        <p>
-          <b>BSc in Computer Engineering</b><br />
-          <b>Concentration</b>: Artificial Intelligence and Internet of Things <br />
-        </p>
-        <span class="description">Sep 2014 – Dec 2018</span>
-      </div>
-    </div>
-  </div>
-</section>
-        
+          <header class="major" data-aos="fade-up">
+            <center><h2>Education</h2></center>
+          </header>
+          <div class="publicationsWrapper">
+            <div class="publication-common" data-aos="fade-right">
+              <div class="publicationImage">
+                <img src="./images/university_of_guelph_image.jpg" alt="University of Guelph" />
+              </div>
+              <div class="contentWrapper">
+                <h4>University of Guelph</h4>
+                <p>
+                  <b>PhD in Computer Science</b><br />
+                  <b>Research Interests</b>: Large Language Models, Social Media Privacy, Ethical AI, Text Data Privacy <br />
+                </p>
+                <span class="description">May 2022 – May 2026 (Expected)</span>
+              </div>
+            </div>
+            <div class="publication-common" data-aos="fade-right">
+              <div class="publicationImage">
+                <img src="./images/american_university_of_sharjah_image.jpg" alt="American University of Sharjah" />
+              </div>
+              <div class="contentWrapper">
+                <h4>American University of Sharjah</h4>
+                <p>
+                  <b>MSc in Computer Engineering</b><br />
+                  <b>Thesis</b>: “Machine Learning-Based Approach for EV Charging Behavior” <br />
+                </p>
+                <span class="description">Jan 2019 – June 2021</span>
+                <p>
+                  <b>BSc in Computer Engineering</b><br />
+                  <b>Concentration</b>: Artificial Intelligence and Internet of Things <br />
+                </p>
+                <span class="description">Sep 2014 – Dec 2018</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <!-- Get Started -->
         <section id="cta" class="main special">
           <header class="major">
