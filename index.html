@@ -26,10 +26,10 @@
       color: #ffffff; /* Ensure headings are clearly readable */
     }
     a {
-      color: #6a0dad; /* Change link color to purple */
+      color: #6a0dad; /* Improve link color for better visibility */
     }
     a:hover {
-      color: #8a2be2; /* Change link hover color to lighter purple */
+      color: #8a2be2;
     }
     strong, b {
       color: #6a0dad;
@@ -39,38 +39,32 @@
       font-size: 1em; /* Ensure paragraphs and spans are readable */
     }
     
+    .publicationImage {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
     .publicationImage img {
       max-width: 150px; /* Ensure images in publication section are not too large */
       margin-right: 20px; /* Add space between image and text */
+      height: auto;
+      display: block;
     }
-    .contentWrapper {
+    
+    .publication-common {
       display: flex;
       align-items: center;
+      margin-bottom: 20px;
     }
-    .metaContent .wrapper i,
-    .metaContent .wrapper a {
-      color: #6a0dad; /* Change icon and link color in meta content */
-    }
-    .metaContent .wrapper a:hover {
-      color: #8a2be2; /* Change icon and link hover color in meta content */
-    }
-    nav#nav ul li a.active {
-      background: #6a0dad; /* Change active nav background color */
-    }
-    nav#nav ul li a:hover {
-      background: #8a2be2; /* Change nav hover background color */
-    }
-    section#second .major {
-      border-bottom: 2px solid #6a0dad; /* Change section header border color */
-    }
-    section#education .major {
-      border-bottom: 2px solid #6a0dad; /* Change section header border color */
-    }
-    section#cta .major {
-      border-bottom: 2px solid #6a0dad; /* Change section header border color */
+    
+    .contentWrapper {
+      display: flex;
+      flex-direction: column;
     }
   </style>
 </head>
+
 
 <body class="is-preload">
   <div id="wrapper-container">
