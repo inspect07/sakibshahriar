@@ -38,16 +38,33 @@
     p, span, .address {
       font-size: 1em; /* Ensure paragraphs and spans are readable */
     }
+    
+    .publicationImage {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
     .publicationImage img {
       max-width: 150px; /* Ensure images in publication section are not too large */
       margin-right: 20px; /* Add space between image and text */
+      height: auto;
+      display: block;
     }
-    .contentWrapper {
+    
+    .publication-common {
       display: flex;
       align-items: center;
+      margin-bottom: 20px;
+    }
+    
+    .contentWrapper {
+      display: flex;
+      flex-direction: column;
     }
   </style>
 </head>
+
 
 <body class="is-preload">
   <div id="wrapper-container">
